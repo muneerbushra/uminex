@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Page</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap" rel="stylesheet">
+	
+</head>
+<body>
+    
+    <!--header top start-->
+		<div class="headertop">
+            <div class="container">
+				<div class="innerheader1">
+					<div class="headerstart">
+						<a href="#"
+							>Donate to support families affected by the war in Ukraine!</a
+						>
+					</div>
+					<div class="headerend">
+						        <div class="navitems"><a href="#">Store Locator</a></div>
+								<div class="navitems"><a href="#">Order Tracking</a></div>
+								<div class="navitems"><a href="#">FAQs</a></div>
+								<div class="navitems" id="langhover">
+									<div >
+									English
+									</div>
+									<div class="dd1">
+										<ul class="ddlist2">
+											<li class="gap"><a>Deustuch</a></li>
+											<li class="gap"><a>Espanol</a></li>
+											<li class="gap"><a>Francis</a></li>
+										</ul>
+									  </div>
+
+								</div>
+								<div class="navitems" id="currhover">
+									<div>USD</div>
+									<div class="dd1">
+										<ul class="ddlist2">
+											<li class="gap"><a>EUR</a></li>
+											<li class="gap"><a>GBP</a></li>
+										</ul>
+									  </div>
+								</div>
+                    </div>
+				</div>
+			</div>
+		</div>
+		<!--header top end-->
+
+		<!--header mid start-->
+        <div class="headermid">
+            <div class="container">
+                <div class="innerheader2">
+
+                    <div class="logo">
+                        <div class="logoimg">
+                            <a href="index.html">
+								<img src="https://uminex.kutethemes.net/wp-content/themes/uminex/assets/images/logo.svg" alt="logo">
+							</a></div>
+                    </div>
+					
+                    <div class="searchbar">
+						<div class="innersearchbar">
+                            <div class="whitespace">
+                                <input placeholder="Search for products..." >
+                                
+                            </div>
+							<button class="btn" type="submit">Search</button>
+                        </div>
+                    </div>
+
+                    <div class="sidemenu">
+						<div class="cartflex menuitems remove"><!--burgermenu-->  <!--visibile at 320-1159-->
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class="svg">
+								<path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+							  </svg>
+
+						</div>
+						<div class="cartflex menuitems remove"><!--login--> <!--visibile at 320-1159-->
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class="svg">
+								<path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+							  </svg>
+						</div>
+						<div class="cartflex menuitems loginflex remove2"><!--loginwithspan--> <!--visibile at 1161-2440-->
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class="svg">
+								<path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+							  </svg>
+							  <span class="logintext">
+								<span class="logintextspan1">Login</span>
+								<span class="logintextspan2">Account</span>
+							  </span>
+						</div>
+						<div class=" cartflex menuitems"><!--wishlist-->
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class="svg">
+								<path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+							  </svg>
+						</div>
+						<div class="cartflex menuitems"><!--cart-->
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class="svg">
+								<path strokeLinecap="round" strokeLinejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+							  </svg>
+							<span class="cartspan">
+								<span class="cartspan1">Your Cart</span>
+								<span class="cartspan2">$ 0.00</span>
+							</span>
+						</div>
+					</div>
+				
+                </div>
+            </div>
+        </div>
+		<!--header mid end-->
+
+		<!--header bottom start-->
+		<div class="headerbottom">
+		<div class="categorycontainer">
+		<div class="categories">
+			<div class="categories1">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class="svg">
+					<path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+				  </svg>
+				<a class="categorybrowse">Browse all Categories</a>
+			</div>
+			<div class="categories2">
+				<div class="categoriesitems " id="l1">
+				<a class="active " >Home</a>
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class="svgcategories">
+					<path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+				  </svg>
+				  <div class="dd1">
+					<ul class="ddlist1">
+						<li><a>Home 01</a></li>
+						<li><a>Home 02</a></li>
+						<li><a>Home 03</a></li>
+						<li><a>Home 04</a></li>
+						<li><a>Home 05</a></li>
+						<li><a>Home 06</a></li>
+						<li><a>Home 07</a></li>
+					</ul>
+				  </div>
+			</div>
+					<div class="categoriesitems" id="l2">
+						<a >Shop</a>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class="svgcategories">
+							<path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+						  </svg>
+						  <div class="dd1">
+							<div class="ddlist2">
+								<ul class="list2sec1">
+									<ul><li class="gap ddhead"><a>Layout</a></li>
+										<li class="gap"><a class="">Grid</a></li>
+										<li class="gap"><a >Grid Items Expanded</a></li>
+										<li class="gap"><a >List</a></li>
+										<li class="gap"><a >Shop Categories</a></li>
+										<li class="gap"><a >Shop Top Banner</a></li>
+									</ul>
+									<ul><li class="gap ddhead"><a>Sidebar</a></li>
+										<li class="gap "><a>Left Sidebar</a></li>
+										<li class="gap"><a>Right Sidebar</a></li>
+										<li class="gap"><a>Sticky Sidebar</a></li>
+										<li class="gap"><a>Popup Filter</a></li>
+										<li class="gap"><a>Dropdown Filter</a></li>
+									</ul>
+									<ul><li class="gap ddhead"><a>Other Pages</a></li>
+										<li class="gap"><a>Shopping Cart</a></li>
+										<li class="gap"><a>Checkout</a></li>
+										<li class="gap"><a>Wishlist</a></li>
+										<li class="gap"><a>Order Tracking</a></li>
+									</ul>		
+									
+								</ul>
+								<ul class="list2sec2">
+									<ul>
+									<li class="gap ddhead"><a>Item Hover</a></li>
+									<li class="gap"><a>Change Image</a></li>
+									<li class="gap"><a>Slide Image</a></li>
+									<li class="gap"><a>Zoom Image</a></li>
+									<li class="gap"><a>No Effect</a></li>
+									</ul>
+									<ul>
+										<li class="gap ddhead"><a>Pagination</a></li>
+										<li class="gap"><a>Default Pagination</a></li>
+									<li class="gap"><a>Load More</a></li>
+									<li class="gap"><a>Infinite Scroll</a></li>
+									</ul>
+									<ul>
+										<li class="gap ddhead"><a>Multi-Vendors</a></li>
+										<li class="gap"><a>Dokan</a></li>
+										<li class="gap"><a>WCFM</a></li>
+									</ul>	
+								
+								</ul>
+							</div>
+						  </div>
+					</div>
+					<div class="categoriesitems" id="l3">
+						<a >Product</a>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class="svgcategories">
+							<path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+						  </svg>
+						  <div class="dd1">
+							<div class="ddlist2">
+								<ul class="list2sec1">
+									<ul><li class="gap ddhead"><a>Layout</a></li>
+										<li class="gap"><a class="">Horizontal Thumbnail</a></li>
+										<li class="gap"><a >Vertical Thumbnail</a></li>
+										<li class="gap"><a >Grid Gallery</a></li>
+										<li class="gap"><a >Sticky Gallery</a></li>
+										<li class="gap"><a >Slide Gallery</a></li>
+									</ul>
+									<ul><li class="gap ddhead"><a>Tab</a></li>
+										<li class="gap "><a>Default</a></li>
+										<li class="gap"><a>Show All Tabs</a></li>
+									</ul>
+									<ul><li class="gap ddhead"><a>Features</a></li>
+										<li class="gap"><a>Simple</a></li>
+										<li class="gap"><a>Variable</a></li>
+										<li class="gap"><a>Grouped</a></li>
+										<li class="gap"><a>External/Affiliate</a></li>
+										<li class="gap"><a>On Sale</a></li>
+									</ul>		
+									
+								</ul>
+							</div>
+						  </div>
+					</div>
+					<div class="categoriesitems" id="l4">
+						<a >Blog</a>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class="svgcategories">
+							<path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+						  </svg>
+						  <div class="dd1">
+							<div class="ddlist2">
+								<ul class="list2sec1">
+									<ul><li class="gap ddhead"><a>Layout</a></li>
+										<li class="gap"><a class="">Horizontal Thumbnail</a></li>
+										<li class="gap"><a >Vertical Thumbnail</a></li>
+										<li class="gap"><a >Grid Gallery</a></li>
+										<li class="gap"><a >Sticky Gallery</a></li>
+										<li class="gap"><a >Slide Gallery</a></li>
+									</ul>
+									<ul><li class="gap ddhead"><a>Tab</a></li>
+										<li class="gap "><a>Default</a></li>
+										<li class="gap"><a>Show All Tabs</a></li>
+									</ul>
+									<ul><li class="gap ddhead"><a>Posts Details</a></li>
+										<li class="gap"><a>Standard</a></li>
+										<li class="gap"><a>Modern</a></li>
+									</ul>		
+									
+								</ul>
+							</div>
+						  </div>
+					</div>
+					<div class="categoriesitems" id="l5">
+						<a >Page</a>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class="svgcategories">
+							<path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+						  </svg>
+						  <div class="dd1">
+							<div class="ddlist2">
+								<ul class="list2sec1">
+									<ul>
+										<li class="gap"><a>About Us</a></li>
+										<li class="gap"><a >Contact Us</a></li>
+										<li class="gap"><a >My Account</a></li>
+										<li class="gap"><a >404 Error</a></li>
+									</ul>
+									
+											
+									
+								</ul>
+							</div>
+						  </div>
+					</div>
+					<div class="categoriesitems" id="buyuminex">
+						<a >Buy Uminex!</a>
+					</div>
+				
+			</div>
+			<div class="categories3">
+				<img src="./assets/saleicon.png" alt="img" class="saleimg">
+				<span class="spanbrowse">Sale $20 Off Your First Order</span>
+			</div>
+		</div>
+	</div>
+		</div>
+		<!--header bottom end-->
+
+        <!--main container start-->
+		<div class="main">
+        <div class="maincontainer">
+            <div class="itempagecontainer">
+                <div class="imgsection">
+                    <div class="itemimgcontainer">
+                        <img src="./assets/itemimg.jpg" alt="img" class="itemimg" >
+                    </div>
+                </div>
+                <div class="detailssection">
+					<div class="itemname">
+						<span class="itemnameheading">Laptop MateBook Pro 256GB - 4K Display</span>
+						<span class="itemnamedescription">
+							<span class="itemnamespan1">
+								<span class="graytext">Brand:</span>
+								<span class="bluetext">SAMSUNG</span>
+							</span>
+							<span class="itemnamespan2">
+								<img src="./assets/rating.jpg" alt="img" class="ratingimg" >
+								<span class="graytext">(3 Reviews)</span>
+							</span>
+							<span class="itemnamespan3">
+								<span class="graytext">SKU:</span>
+								<span class="bold">D8E0035</span>
+							</span>
+						</span>
+					</div>
+					<div class="itempricesection">
+						<span class="itemprice">
+							<span class="itemproductcardspan3">$450.00</span>
+							<span class="productcardspan4">$470.00</span>
+						</span>
+						<span class="itemdescli">
+							<ul>
+								<li>Screen Size 10.9 inch</li>
+								<li>Operating System iOS 14.0</li>
+								<li>Product Length 9.74 inch</li>
+							</ul>
+						</span>
+					</div>
+					<div class="itemsectionbuttons">
+						<span class="sectionbuttonspan1">
+							<span class="itemaddbtn">-  1  +</span>
+							<button>Add To Cart</button>
+						</span>
+						<span class="sectionbuttonspan2">
+							<button>BUY NOW</button>
+						</span>
+						<span class="sectionbuttonspan3">
+							<span class="span3ws">
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class="itemimgs">
+									<path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+								  </svg>
+								  
+								<span>Add to Wishlist</span>
+							</span>
+							<span class="span3ws">
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class="itemimgs">
+									<path strokeLinecap="round" strokeLinejoin="round" d="M14.25 9.75L16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z" />
+								  </svg>
+								  
+								<span>Add to Compare</span>
+							</span>
+							<span class="span3ws">
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class="itemimgs">
+									<path strokeLinecap="round" strokeLinejoin="round" d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z" />
+								  </svg>
+								  
+								<span>Share</span>
+							</span>
+						</span>
+					</div>
+					<div class="itemdescriptiondetail">
+						<span class="itemdescriptiondetail1">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class="itemimgs">
+								<path strokeLinecap="round" strokeLinejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" />
+							  </svg>
+							 <span>
+								<span>Estimated Delivery Time.</span>
+								<span class="bold">10-12 days</span>
+								<span>(International).</span>
+							 </span>
+						</span>
+						<span class="itemdescriptiondetail1">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class="itemimgs">
+								<path strokeLinecap="round" strokeLinejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.678 48.678 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3l-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 003.7 3.7 48.656 48.656 0 007.324 0 4.006 4.006 0 003.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3l-3 3" />
+							  </svg>
+							  
+							 <span >
+								<span>Return within</span>
+								<span class="bold">30 days</span>
+								<span>of purchase. Taxes are non-refundable</span>
+							 </span>
+						</span>
+
+					</div>
+					<div class="itemcategory">
+						<span class="itemcategory1">
+							<span class="itemcategorytitle">Availability:</span>
+							<span>
+								<span class="productcardspanstock">In Stock</span>
+								<span>33 products</span>
+							</span>
+						</span>
+
+						<span class="itemcategory2">
+							<span class="itemcategorytitle">Categories:</span>
+							<span>
+								<span><a>Digital & Electronic, Laptop & Computer</a></span>
+							</span>
+						</span>
+
+						<span class="itemcategory2">
+							<span class="itemcategorytitle">Tag:</span>
+							<span>
+								<span>Digital & Electronic</span>
+							</span>
+						</span>
+					</div>
+					<div class="checkout">
+						<div><span class="bold">Guarantee Safe & Secure Checkout</span></div>
+						<div class="checkoutimg"><img src="./assets/payment.svg" alt="img" class="checkoutimg"></div>
+					</div>
+					
+				</div>
+
+            </div>
+        </div>
+
+		<div class="maincontainer2">
+			<div class="itempagecontainer2">
+			<div class="itempagecontainer2scroll">
+				<div class="itempagecontainer2head">
+					<a class=" graytext">DESCRIPTION</a>
+					<a class=" graytext">ADDITIONAL INFORMATION</a>
+					<a class=" graytext">REVIEWS (3)</a>
+					<a class=" graytext">BRANDS (1)</a>
+			</div>
+			</div>
+			<div class="descriptionp">
+				<p>iPad Air with a vibrant 10.9-inch Liquid Retina display. Breakthrough Apple M1 chip for faster performance, making iPad Air super-powerful for creativity and mobile gaming. Get Touch ID, an advanced camera, lightning-fast 5G2 and Wi-Fi 6, a USB-C port, and support for the Magic Keyboard and Apple Pencil (2nd generation).</p>
+				<div class="productcontentimg">
+					<img src="./assets/productcontent.png" alt="img" class="contentimg">
+				</div>
+				<span>
+					<h4>WORK WONDERS WITH EASE</h4>
+					<p>There are so many things you can do with iPad and all the amazing apps designed for it. Now App Library automatically organizes those apps for you. And new widgets let you see information at a glance, right on your Home Screen. iPad is the world’s best note-taking device. And now Notes goes system‑wide with Quick Note, a fast and easy way to get to a note no matter what you’re doing. Highlight text in Safari or add a link from an app, and you’ll see a Quick Note thumbnail next time you visit the site, taking you right to what you were viewing before. And if you make a Quick Note on your iPad, it will be on your iPhone and Mac.</p>
+				</span>
+				<div class="productcontentimg">
+					<span class="productcontentimg2"><img src="./assets/productcontent1.png" alt="img" class="contentimg"></span>
+					<span class="productcontentimg2"><img src="./assets/productcontent2.png" alt="img" class="contentimg"></span>
+					<span class="productcontentimg2"><img src="./assets/productcontent3.png" alt="img" class="contentimg"></span>
+				</div>
+				<span>
+					<h4>PRODUCT SUPREME QUALITY</h4>
+					<p>Praesent aliquam dignissim viverra. Maecenas lacus odio, feugiat eu nunc sit amet, maximus sagittis dolor. Vivamus nisi sapien, elementum sit amet eros sit amet, ultricies cursus ipsum. Sed consequat luctus ligula. Curabitur laoreet rhoncus blandit. Aenean vel diam ut arcu pharetra dignissim ut sed leo. Vivamus faucibus, ipsum in vestibulum vulputate, lorem orci convallis quam, sit amet consequat nulla felis pharetra lacus. Duis semper erat mauris, sed egestas purus commodo. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</span>
+			</div>
+		
+		</div>
+		</div>
+
+	</div>
+        <!--main container end-->
+
+
+		<!--8th section (footer) start-->
+		<div class="footersection">
+			<div class="footer1">
+				<div class="footer1item">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class="footer1img">
+						<path strokeLinecap="round" strokeLinejoin="round" d="M7.875 14.25l1.214 1.942a2.25 2.25 0 001.908 1.058h2.006c.776 0 1.497-.4 1.908-1.058l1.214-1.942M2.41 9h4.636a2.25 2.25 0 011.872 1.002l.164.246a2.25 2.25 0 001.872 1.002h2.092a2.25 2.25 0 001.872-1.002l.164-.246A2.25 2.25 0 0116.954 9h4.636M2.41 9a2.25 2.25 0 00-.16.832V12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 12V9.832c0-.287-.055-.57-.16-.832M2.41 9a2.25 2.25 0 01.382-.632l3.285-3.832a2.25 2.25 0 011.708-.786h8.43c.657 0 1.281.287 1.709.786l3.284 3.832c.163.19.291.404.382.632M4.5 20.25h15A2.25 2.25 0 0021.75 18v-2.625c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125V18a2.25 2.25 0 002.25 2.25z" />
+					</svg>
+					
+					<span class="footer1span">
+						<span class="footer1span1">FAST DELIVERY</span>
+						<span class="footer1span2">Deliver in 24 hours max</span>
+					</span>
+				</div>
+				<div class="footerborder"></div>
+				<div class="footer1item">
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class="footer1img">
+									<path strokeLinecap="round" strokeLinejoin="round" d="M7.875 14.25l1.214 1.942a2.25 2.25 0 001.908 1.058h2.006c.776 0 1.497-.4 1.908-1.058l1.214-1.942M2.41 9h4.636a2.25 2.25 0 011.872 1.002l.164.246a2.25 2.25 0 001.872 1.002h2.092a2.25 2.25 0 001.872-1.002l.164-.246A2.25 2.25 0 0116.954 9h4.636M2.41 9a2.25 2.25 0 00-.16.832V12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 12V9.832c0-.287-.055-.57-.16-.832M2.41 9a2.25 2.25 0 01.382-.632l3.285-3.832a2.25 2.25 0 011.708-.786h8.43c.657 0 1.281.287 1.709.786l3.284 3.832c.163.19.291.404.382.632M4.5 20.25h15A2.25 2.25 0 0021.75 18v-2.625c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125V18a2.25 2.25 0 002.25 2.25z" />
+								</svg>
+								
+								<span class="footer1span">
+									<span class="footer1span1">SAFE PAYMENT</span>
+									<span class="footer1span2">100% secure payment</span>
+								</span>
+				</div>
+				<div class="footerborder"></div>
+				<div class="footer1item">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class="footer1img">
+						<path strokeLinecap="round" strokeLinejoin="round" d="M7.875 14.25l1.214 1.942a2.25 2.25 0 001.908 1.058h2.006c.776 0 1.497-.4 1.908-1.058l1.214-1.942M2.41 9h4.636a2.25 2.25 0 011.872 1.002l.164.246a2.25 2.25 0 001.872 1.002h2.092a2.25 2.25 0 001.872-1.002l.164-.246A2.25 2.25 0 0116.954 9h4.636M2.41 9a2.25 2.25 0 00-.16.832V12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 12V9.832c0-.287-.055-.57-.16-.832M2.41 9a2.25 2.25 0 01.382-.632l3.285-3.832a2.25 2.25 0 011.708-.786h8.43c.657 0 1.281.287 1.709.786l3.284 3.832c.163.19.291.404.382.632M4.5 20.25h15A2.25 2.25 0 0021.75 18v-2.625c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125V18a2.25 2.25 0 002.25 2.25z" />
+					  </svg>
+					  
+					<span class="footer1span">
+						<span class="footer1span1">ONLINE DISCOUNT</span>
+						<span class="footer1span2">Add multibuy discount</span>
+					</span>
+				</div>
+				<div class="footerborder"></div>
+				<div class="footer1item">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class="footer1img">
+						<path strokeLinecap="round" strokeLinejoin="round" d="M7.875 14.25l1.214 1.942a2.25 2.25 0 001.908 1.058h2.006c.776 0 1.497-.4 1.908-1.058l1.214-1.942M2.41 9h4.636a2.25 2.25 0 011.872 1.002l.164.246a2.25 2.25 0 001.872 1.002h2.092a2.25 2.25 0 001.872-1.002l.164-.246A2.25 2.25 0 0116.954 9h4.636M2.41 9a2.25 2.25 0 00-.16.832V12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 12V9.832c0-.287-.055-.57-.16-.832M2.41 9a2.25 2.25 0 01.382-.632l3.285-3.832a2.25 2.25 0 011.708-.786h8.43c.657 0 1.281.287 1.709.786l3.284 3.832c.163.19.291.404.382.632M4.5 20.25h15A2.25 2.25 0 0021.75 18v-2.625c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125V18a2.25 2.25 0 002.25 2.25z" />
+					  </svg>
+					  
+					<span class="footer1span">
+						<span class="footer1span1">HELP CENTER</span>
+						<span class="footer1span2">Dedicated 24/7 support</span>
+					</span>
+				</div>
+				<div class="footerborder"></div>
+				<div class="footer1item">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class="footer1img">
+						<path strokeLinecap="round" strokeLinejoin="round" d="M7.875 14.25l1.214 1.942a2.25 2.25 0 001.908 1.058h2.006c.776 0 1.497-.4 1.908-1.058l1.214-1.942M2.41 9h4.636a2.25 2.25 0 011.872 1.002l.164.246a2.25 2.25 0 001.872 1.002h2.092a2.25 2.25 0 001.872-1.002l.164-.246A2.25 2.25 0 0116.954 9h4.636M2.41 9a2.25 2.25 0 00-.16.832V12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 12V9.832c0-.287-.055-.57-.16-.832M2.41 9a2.25 2.25 0 01.382-.632l3.285-3.832a2.25 2.25 0 011.708-.786h8.43c.657 0 1.281.287 1.709.786l3.284 3.832c.163.19.291.404.382.632M4.5 20.25h15A2.25 2.25 0 0021.75 18v-2.625c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125V18a2.25 2.25 0 002.25 2.25z" />
+					  </svg>
+					  
+					<span class="footer1span">
+						<span class="footer1span1">CURATED ITEMS</span>
+						<span class="footer1span2">From Hnadicapped sellers</span>
+					</span>
+				</div>
+
+		</div>
+		
+		<div class="footer2">
+			<div class="footertext">
+					<span class="footerheading">ABOUT THE STORE</span>
+					<span class="footerspan1">
+						<span class="footergraytext">Got Question? Call us 24/7</span>
+						<span class="footerphone">+222-1800-2628</span>
+					</span>
+					<span class="footerspan2 footergraytext">
+						<span class="footeraddress">268 St, South New York/NY 98944, United States</span>
+						<span><a>Customersupport@example.com</a></span>
+						<span><a>Info@example.com</a></span>
+					</span>
+			</div>
+			<div class="footertext">
+					<span class="footerheading">INFORMATION</span>
+					<span class="footerspan2 footergraytext">
+						<a>Blog us</a>
+						<a>About us</a>
+						<a>Delivery Information</a>
+						<a>Privacy Policy</a>
+						<a>FeedBack</a>
+					</span>
+			</div>
+			<div class="footertext">
+				<span class="footerheading">QUICK LINKS</span>
+				<span class="footerspan2 footergraytext">
+					<a>Store Location</a>
+					<a>Order Tracking</a>
+					<a>FAQs</a>
+				</span>
+
+			</div>
+			<div class="footertext">
+					<span class="footerheading">SIGN UP TO NEWSLETTER</span>
+					<span class="footerspan2 footergraytext">
+						<span class="lh">Join 20.000+ subscribers and get a new discount coupon on every Saturday. Updates information on Sales and Offers.</span>
+						<span class="subbutton">
+							<input class="input"  placeholder="Your email address"/>
+							<button class="subbtn">SUBSCRIBE</button>
+						</span>
+						<span>Subscribe for Uminex and get 20% off your first purchase.</span>
+					</span>
+	
+			</div>		
+		</div>
+
+		<div class="footer3">
+			<div class="innerfooter3">
+				<div class="footer3span1">
+					<a>Uminex</a>
+					<span>all rights reserved. Powered by </span>
+					<a>KuteThemes.</a>
+				</div>
+				<div class="footer3span1 footergraytext footer3span2">
+					<span>Payment method:</span>
+					<img src="./assets/payment.svg" alt="img" >
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--8th section (footer) end-->
+    
+</body>
+</html>
